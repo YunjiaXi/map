@@ -1,8 +1,17 @@
 # Map
 Data structure 2018 course work
 
-要求：实现STL库中的map库，使用迭代器并且实现STL库中map可以实现的所有操作，没有内存泄漏，时间复杂度优化（要通过测试）
+Maps are associative containers that store elements formed by a combination of a key value and a mapped value, following a specific order.
 
-利用红黑树实现，复杂，较快（已实现）
+## Requirements：
+* the same operations in C++ STL; 
+* no memory leaking; 
+* need to optimize time complexity for test.
 
-利用平衡树实现，简单，较慢（没有写）
+## Realization
+* Red Black Tree (finished)
+  * complex and hard to write
+  * run faster
+* Balanced Binary Tree(not finished)
+  * easy to write
+  * run slower
